@@ -1,0 +1,140 @@
+.prakash p{
+       font-family: 'Times New Roman', Times, serif;
+       font-size: 40px;
+       color: white;
+       background-size: contain;
+       padding-top: 350px;
+       padding-right: 30px;
+       padding-left: 30px;
+       font-style: italic;
+       font-weight: bold;
+       
+
+}
+
+
+.prakash{
+    background-image:url(./images/DSC_0011.JPG);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 900px;
+    align-items: center;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 15px 25px;
+    position: relative;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: red;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transform-style: 0.5s;
+
+}
+
+.navbar ul li:hover::after{
+    width: 100%;
+}
+
+.Profile{
+    background: lightgreen;
+}
+
+.Profile p2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    padding-bottom: 60px;
+    font-weight: bold;
+    color: black;
+    position: relative;
+    
+}
+
+.Profile h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color:black;
+}
+
+.History{
+    background-color: lightsalmon;
+    
+}
+
+.History p3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: black;
+}
+
+.History h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+    justify-content: center;
+
+}
+
+
+.Photos h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    align-content: center;
+}
+
+.footer{
+    background-color:lightgreen;
+    color: black;
+}
+
+.About h4{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+
+}
+
+
+.social-links ul{
+    display: flex;
+    
+}
+
+.social-links ul li{
+    position: relative;
+    display: block;
+    color: blue;
+    font-size: 50px;
+    height: 60px;
+    width: 60px;
+    background: white;
+    line-height: 60px;
+    border-radius:50%;
+    margin: 0 15px; 
+
+}
+
+.surya{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+    font-style: italic;
+}
+
+
+
+
+
